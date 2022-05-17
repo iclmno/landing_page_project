@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+  height: 100vh;
+  max-width: 200vh;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  display: flex;
+  margin: 0;
+  margin-left: 720px;
+  margin-bottom: 490px;
+  gap: 20px;
+  align-items: center;
+}
+
+a:link, a:visited,  a:hover, a:active {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 900;
+  padding-left: 100px;
+}
+
+.header {
+  background: #1f2937; 
+  display: flex;
+  padding: 8px;
+  padding-top: 20px;
+  height: 500px;
+  
+}
+
+.headertwo {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  color: #f9faf8;
+  margin-top: 150px;
+  margin-left: -265px;
+  font-size: 40px;
+}
+
+.lifts {
+  display: flex;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #e5e7eb;
+  width: 300px;
+  margin-top: 200px;
+  margin-left: -505px;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  height: 50px;
+  width: 120px;
+  margin-top: 260px;
+  margin-left: -300px;
+}
+
+button.shred {
+  background: #3882f6;
+  border: 1px solid #3882f6;
+  color: white;
+}
+
+.slash {
+  display: flex;
+  padding-top: 130px;
+  height: 240px;
+  max-height: 100%;
+  width: 200px;
+  max-width: 100%;
+  margin-left: -440px;
+}
+
+.icon {
+  width: 100%;
+  max-width: 200px;
+  height: 120%;
+  max-height: 180px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 80px;
+  padding-top: 30px;
+  padding-bottom: 200px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.info {
+  max-width: 200px;
+}
+
+.text {
+  display: flex;
+  color: #e5e7eb;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  height: 500px;
+  font-style: light italic;
+  font-size: 26px;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.action {
+  border: #3882f6;
+  border-radius: 15px;
+  margin-top: 220px;
+  margin-bottom: 220px;
+  margin-left: 180px;
+  margin-right: 180px;
+  background-color: #3882f6;
+  height: 100px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.letsshred {
+  padding-top: 10px;
+  padding-left: 90px;
+  font-size: 20px;
+  font-weight: 900;
+  color: #e5e7eb;
+}
+
+.signupinfo {
+  padding-left: 90px;
+  width: 500px;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.signup {
+  display: flex;
+  margin-left: 650px;
+  margin-top: -50px;
+  color: #e5e7eb;
+  font-weight: 900;
+  border: 2px solid #e5e7eb;
+  background-color: #3882f6;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  height: 55px;
+  background: #1f2937;
+  color: #e5e7eb;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
